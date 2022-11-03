@@ -1,0 +1,271 @@
+*{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}    
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
+
+
+.margin_width{
+    width: 90%;
+    margin: 0 auto;
+}
+
+:root{    
+    --yellow-light: rgba(249, 182, 64, 1);
+    --yellow: rgba(244, 249, 226, 1);
+    --blue-bark:rgba(34, 53, 111, 1);
+    --blue: rgba(0, 82, 193, 1);
+    --blue-light:rgba(98, 208, 223, 1);
+    --green: rgba(118, 181, 139, 1);
+    --black: rgba(0, 0, 0, 1);
+    --white: rgba(255, 255, 255, 1);    
+}
+
+/*header*/
+
+.header{
+    height: 140px;
+    background-color: var(--yellow);
+}
+
+.header_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header_logo{
+    width: 10%;
+    margin-top: 0.7em;
+}
+
+.header_button{
+    width: 15%;
+}
+
+.header_block_nav{
+    width: 75%;
+}
+
+
+.button{
+    background-color: var(--yellow-light);
+    color: var(--white);
+    
+    border-style: none;
+    border-radius: 3em;
+    padding: 1em 2.2em;       
+    font-size: 14px;    
+}
+
+/*header nav*/
+
+.header_block_nav{
+    width: 50%;
+}
+
+.header_menu_ul{      
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_menu_li{    
+    font-size: 14px;       
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+    font-style: normal; 
+}
+
+/*main*/
+/*main_dinozavr*/
+
+.main_dinozavr{
+    background-color: var(--yellow);    
+}
+
+.main_block_dinozavr{
+    padding: 6em 0em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: var(--blue-bark);
+}
+
+.main_dinozavr_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_dinozavr_photo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dinozavr_photo{
+    width: 543px;
+    height: 533px;
+}
+
+.main_dinozavr_text_big{
+    font-size: calc(24px + 24 * (100vw / 1440));
+    margin-bottom: 1.5em;    
+}
+
+.main_dinozavr_text_small{
+    font-size: calc(14px + 10 * (100vw / 1440));    
+    line-height: calc(25px + 18 * (100vw / 1440));
+    font-style: normal; 
+}
+
+/*main_bicycle*/
+
+.main_bicycle{
+    background-color: var(--blue-light);    
+}
+
+.main_block_bicycle{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: var(--white);
+}
+
+.main_bicycle_text{
+    width: 50%;
+    margin-left: 6%;   
+    display: flex;
+    flex-direction: column;
+}
+
+.main_bicycle_photo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red_bicycle_photo{
+    width: 520px;
+    height: 604px;
+}
+
+.main_bicycle_text_big{
+    font-size: calc(22px + 14 * (100vw / 1440));
+    margin-bottom: 1.5em;    
+}
+
+.main_bicycle_text_small{
+    font-size: calc(14px + 10 * (100vw / 1440));    
+    line-height: calc(25px + 11 * (100vw / 1440)); 
+}
+
+/*main_block_white*/
+
+.main_block_white{
+    margin-top: 14em;
+    margin-bottom: 10em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main_block_white_text{
+    width: 50%;
+    font-size: calc(14px + 10 * (100vw / 1440));    
+    line-height: calc(25px + 9 * (100vw / 1440));
+    color: var(--blue-bark); 
+}
+
+/*main_block_colors*/
+
+.main_block_colors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 480px); 
+}
+
+.main_block_colors_blue{
+    
+    background-color: var(--blue-bark); 
+}
+
+.main_block_colors_blue_light{
+    
+    background-color: var(--blue); 
+}
+
+.main_block_colors_green{
+    
+    background-color: var(--green); 
+}
+
+.main_block_colors_text_box{
+    margin-top: 4em;
+    margin-left: 4em;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.main_block_colors_hr{
+    width: 340px;
+    border: 1px solid var(--white);
+}
+
+.main_block_colors_text{
+    margin-top: 1em;
+    
+    font-size: calc(16px + 16 * (100vw / 1440));
+    color: var(--white);
+    text-align: left;
+}
+
+/*bicycle_bottom*/
+
+.main_bicycle_bottom{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: var(--blue-bark);
+}
+
+.main_bicycle_bottom_text{
+    width: 50%;     
+    display: flex;
+    flex-direction: column;
+}
+
+.main_bicycle_bottom_photo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.many_bicycles_photo{
+    width: 637px;
+    height: 800px;
+}
+
+.main_bicycle_bottom_text_big{
+    font-size: calc(22px + 14 * (100vw / 1440));
+    margin-bottom: 1.5em;    
+}
+
+.main_bicycle_bottom_text_small{    
+    font-size: calc(12px + 24 * (100vw / 1440));    
+    line-height: calc(20px + 34 * (100vw / 1440)); 
+}
