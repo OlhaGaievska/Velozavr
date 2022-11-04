@@ -1,0 +1,77 @@
+@media (max-width: 800px) {
+.main_block_colors{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 480px); 
+}
+
+.main_bicycle_bottom_photo{    
+    display: none;    
+}
+
+.main_bicycle_bottom{
+    flex-direction: column;
+}
+
+.main_bicycle_bottom_text{
+    margin: 4em 0em;
+    width: 80%; 
+}
+
+.main_bicycle_text_small{
+    padding-bottom: 1.5em;
+}
+
+.main_bicycle_text_big{
+    padding-top: 0.5em;    
+}
+
+.main_block_white{
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+
+.main_dinozavr_text_small{
+    width: 90%;
+}
+
+.main_bicycle_photo{
+    display: none;
+}
+
+.header_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    height: 200px;
+}
+
+.header_block_nav{
+    width: 100%;
+}
+
+.header_menu_li{    
+    font-size: 20px;
+    margin: 1em 0em;       
+}
+.main_block_dinozavr{
+    flex-direction: column;
+}
+
+.main_dinozavr_text{
+    width: 100%;
+}
+
+.main_bicycle_text {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.main_block_white_text {
+    width: 80%;
+    margin: 0 auto;
+}
+}

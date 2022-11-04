@@ -113,8 +113,8 @@ a{
 }
 
 .dinozavr_photo{
-    width: 543px;
-    height: 533px;
+    width: 100%;
+    height: 100%;
 }
 
 .main_dinozavr_text_big{
@@ -157,8 +157,8 @@ a{
 }
 
 .red_bicycle_photo{
-    width: 520px;
-    height: 604px;
+    width: 100%;
+    height: 100%;
 }
 
 .main_bicycle_text_big{
@@ -167,6 +167,8 @@ a{
 }
 
 .main_bicycle_text_small{
+    width: 90%;
+    padding-bottom: 2em;
     font-size: calc(14px + 10 * (100vw / 1440));    
     line-height: calc(25px + 11 * (100vw / 1440)); 
 }
@@ -183,7 +185,7 @@ a{
 
 .main_block_white_text{
     width: 50%;
-    font-size: calc(14px + 10 * (100vw / 1440));    
+    font-size: calc(16px + 8 * (100vw / 1440));    
     line-height: calc(25px + 9 * (100vw / 1440));
     color: var(--blue-bark); 
 }
@@ -220,7 +222,7 @@ a{
 }
 
 .main_block_colors_hr{
-    width: 340px;
+    width: 80%;   
     border: 1px solid var(--white);
 }
 
@@ -256,8 +258,8 @@ a{
 }
 
 .many_bicycles_photo{
-    width: 637px;
-    height: 800px;
+    width: 70%;
+    height: 100%;
 }
 
 .main_bicycle_bottom_text_big{
